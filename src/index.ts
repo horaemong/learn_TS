@@ -3,7 +3,7 @@ const num: number = 1;
 const bool: boolean = false;
 const n: null = null;
 const sym: symbol = Symbol("sym");
-const big: bigint = 100000000n;
+// const big: bigint = 100000000000000000000000;
 let obj: object = { hello: "world" };
 
 function plus(x: number, y: number): number {
@@ -20,9 +20,9 @@ console.log(n);
 console.log("\n");
 console.log(sym);
 console.log("\n");
-console.log(big);
-console.log("\n");
+// console.log(big);
+// console.log("\n");
 console.log(obj);
 console.log("\n");
-console.log(plus(1, 2));
+console.log(plus(1, 5));
 console.log("\n");
